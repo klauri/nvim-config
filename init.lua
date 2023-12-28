@@ -1,2 +1,1 @@
-require("kirkl.remap")
-print("hello")
+require("kirkl")
