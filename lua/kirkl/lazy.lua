@@ -24,10 +24,10 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim
 require("lazy").setup({
     {
-		'nvim-telescope/telescope.nvim', 
+        'nvim-telescope/telescope.nvim', 
         tag = '0.1.5',
 		-- or, branch = '0.1.x',
-		dependencies = { {'nvim-lua/plenary.nvim'} },
+		dependencies = { 'nvim-lua/plenary.nvim' },
 		file_ignore_patterns = { 
 			"node_modules"
 		}
@@ -46,7 +46,7 @@ require("lazy").setup({
 	{
 		'ThePrimeagen/harpoon',
 		branch = "harpoon2",
-		dependencies = { {'nvim-lua/plenary.nvim'} }
+		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
 	'tpope/vim-fugitive',
 	{
@@ -54,15 +54,15 @@ require("lazy").setup({
 		branch = 'v3.x',
 		dependencies = {
 			--- Uncomment these if you want to manage LSP servers from neovim
-			 {'williamboman/mason.nvim'},
-			 {'williamboman/mason-lspconfig.nvim'},
+			 'williamboman/mason.nvim',
+			 'williamboman/mason-lspconfig.nvim',
 
 			-- LSP Support
-			{'neovim/nvim-lspconfig'},
+			'neovim/nvim-lspconfig',
 			-- Autocompletion
-			{'hrsh7th/nvim-cmp'},
-			{'hrsh7th/cmp-nvim-lsp'},
-			{'L3MON4D3/LuaSnip'},
+			'hrsh7th/nvim-cmp',
+			'hrsh7th/cmp-nvim-lsp',
+			'L3MON4D3/LuaSnip',
 		}
 	},
   -- Configure any other settings here. See the documentation for more details.
