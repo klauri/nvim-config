@@ -1,5 +1,5 @@
 require("kirkl.remap")
 require("kirkl.set")
-require("kirkl.packer")
+require("kirkl.lazy")
 
 
