@@ -39,7 +39,7 @@ The following plugins are included in this configuration:
 
 ## Ollama Configuration
 
-To use the AI model integration provided by the `ollama` plugin, make sure that you have it installed and runnning (see the [ollama](https://github.com/dandavison/ollama) repository for installation instructions). You may need to modify the configuration in this repository to suit your needs.
+To use the AI model integration provided by the `ollama` plugin, make sure that you have it installed and runnning (see the [ollama](https://github.com/ollama/ollama) repository for installation instructions). You may need to modify the configuration in this repository to suit your needs.
 
 ## Updating Plugins
 
